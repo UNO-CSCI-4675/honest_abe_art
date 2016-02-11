@@ -6,7 +6,7 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: ConfederateCapTexture
+  m_Name: AbeHatMaterial
   m_Shader: {fileID: 4800000, guid: 9ce107479d11178d11005b9844295342, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -19,7 +19,7 @@ Material:
         first:
           name: _MainTex
         second:
-          m_Texture: {fileID: 2800000, guid: d0727cbc986e174478e938da04a5ca3e, type: 3}
+          m_Texture: {fileID: 2800000, guid: 75ad955339a8df4499ce691795649ef0, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
       data:
@@ -146,7 +146,7 @@ Material:
       data:
         first:
           name: _Color
-        second: {r: 1, g: 1, b: 1, a: 1}
+        second: {r: 0.07352942, g: 0.07352942, b: 0.07352942, a: 1}
       data:
         first:
           name: _OutlineColor
