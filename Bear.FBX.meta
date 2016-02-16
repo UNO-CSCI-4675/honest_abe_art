@@ -35,6 +35,22 @@ ModelImporter:
     100054: BearRigSpine1
     100056: BearRigSpine2
     100058: Eyes
+    100060: BearRigBackLLeg1
+    100062: BearRigBackLLeg2
+    100064: BearRigBackLLegAnkle
+    100066: BearRigBackLLegDigit11
+    100068: BearRigBackRLeg1
+    100070: BearRigBackRLeg2
+    100072: BearRigBackRLegAnkle
+    100074: BearRigBackRLegDigit11
+    100076: BearRigFrontLLeg1
+    100078: BearRigFrontLLeg2
+    100080: BearRigFrontLLegAnkle
+    100082: BearRigFrontLLegToe1
+    100084: BearRigFrontRLeg1
+    100086: BearRigFrontRLeg2
+    100088: BearRigFrontRLegAnkle
+    100090: BearRigFrontRLegToe1
     400000: Arms
     400002: //RootNode
     400004: Body
@@ -65,6 +81,22 @@ ModelImporter:
     400054: BearRigSpine1
     400056: BearRigSpine2
     400058: Eyes
+    400060: BearRigBackLLeg1
+    400062: BearRigBackLLeg2
+    400064: BearRigBackLLegAnkle
+    400066: BearRigBackLLegDigit11
+    400068: BearRigBackRLeg1
+    400070: BearRigBackRLeg2
+    400072: BearRigBackRLegAnkle
+    400074: BearRigBackRLegDigit11
+    400076: BearRigFrontLLeg1
+    400078: BearRigFrontLLeg2
+    400080: BearRigFrontLLegAnkle
+    400082: BearRigFrontLLegToe1
+    400084: BearRigFrontRLeg1
+    400086: BearRigFrontRLeg2
+    400088: BearRigFrontRLegAnkle
+    400090: BearRigFrontRLegToe1
     2300000: Arms
     2300002: Body
     2300004: Head
@@ -85,6 +117,7 @@ ModelImporter:
     4300010: Eyes
     9500000: //RootNode
     13700000: Bear
+    13700002: Eyes
   materials:
     importMaterials: 1
     materialName: 0

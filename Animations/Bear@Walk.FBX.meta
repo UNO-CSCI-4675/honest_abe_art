@@ -29,6 +29,22 @@ ModelImporter:
     100042: BearRigSpine2
     100044: BearRig
     100046: BearRigPelvis
+    100048: BearRigBackLLeg1
+    100050: BearRigBackLLeg2
+    100052: BearRigBackLLegAnkle
+    100054: BearRigBackLLegDigit11
+    100056: BearRigBackRLeg1
+    100058: BearRigBackRLeg2
+    100060: BearRigBackRLegAnkle
+    100062: BearRigBackRLegDigit11
+    100064: BearRigFrontLLeg1
+    100066: BearRigFrontLLeg2
+    100068: BearRigFrontLLegAnkle
+    100070: BearRigFrontLLegToe1
+    100072: BearRigFrontRLeg1
+    100074: BearRigFrontRLeg2
+    100076: BearRigFrontRLegAnkle
+    100078: BearRigFrontRLegToe1
     400000: //RootNode
     400002: BearRigChest
     400004: BearRigHead
@@ -53,6 +69,22 @@ ModelImporter:
     400042: BearRigSpine2
     400044: BearRig
     400046: BearRigPelvis
+    400048: BearRigBackLLeg1
+    400050: BearRigBackLLeg2
+    400052: BearRigBackLLegAnkle
+    400054: BearRigBackLLegDigit11
+    400056: BearRigBackRLeg1
+    400058: BearRigBackRLeg2
+    400060: BearRigBackRLegAnkle
+    400062: BearRigBackRLegDigit11
+    400064: BearRigFrontLLeg1
+    400066: BearRigFrontLLeg2
+    400068: BearRigFrontLLegAnkle
+    400070: BearRigFrontLLegToe1
+    400072: BearRigFrontRLeg1
+    400074: BearRigFrontRLeg2
+    400076: BearRigFrontRLegAnkle
+    400078: BearRigFrontRLegToe1
     2300000: //RootNode
     2300002: BearRigChest
     2300004: BearRigHead
@@ -122,6 +154,7 @@ ModelImporter:
     4300040: BearRigLLegAnkle
     4300042: BearRigLLegDigit11
     7400000: Walk
+    7400002: Walk
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -132,7 +165,7 @@ ModelImporter:
     bakeSimulation: 0
     resampleRotations: 1
     optimizeGameObjects: 0
-    motionNodeName: 
+    motionNodeName: <Root Transform>
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
@@ -147,8 +180,8 @@ ModelImporter:
     - serializedVersion: 16
       name: Walk
       takeName: Take 001
-      firstFrame: 10
-      lastFrame: 55
+      firstFrame: 0
+      lastFrame: 150
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -156,7 +189,7 @@ ModelImporter:
       loop: 0
       hasAdditiveReferencePose: 0
       loopTime: 1
-      loopBlend: 0
+      loopBlend: 1
       loopBlendOrientation: 0
       loopBlendPositionY: 0
       loopBlendPositionXZ: 0
@@ -171,25 +204,23 @@ ModelImporter:
       transformMask:
       - path: 
         weight: 1
-      - path: BearRig
-        weight: 1
       - path: BearRigPelvis
         weight: 1
-      - path: BearRigPelvis/BearRigLLeg1
+      - path: BearRigPelvis/BearRigBackLLeg1
         weight: 1
-      - path: BearRigPelvis/BearRigLLeg1/BearRigLLeg2
+      - path: BearRigPelvis/BearRigBackLLeg1/BearRigBackLLeg2
         weight: 1
-      - path: BearRigPelvis/BearRigLLeg1/BearRigLLeg2/BearRigLLegAnkle
+      - path: BearRigPelvis/BearRigBackLLeg1/BearRigBackLLeg2/BearRigBackLLegAnkle
         weight: 1
-      - path: BearRigPelvis/BearRigLLeg1/BearRigLLeg2/BearRigLLegAnkle/BearRigLLegDigit11
+      - path: BearRigPelvis/BearRigBackLLeg1/BearRigBackLLeg2/BearRigBackLLegAnkle/BearRigBackLLegDigit11
         weight: 1
-      - path: BearRigPelvis/BearRigRLeg1
+      - path: BearRigPelvis/BearRigBackRLeg1
         weight: 1
-      - path: BearRigPelvis/BearRigRLeg1/BearRigRLeg2
+      - path: BearRigPelvis/BearRigBackRLeg1/BearRigBackRLeg2
         weight: 1
-      - path: BearRigPelvis/BearRigRLeg1/BearRigRLeg2/BearRigRLegAnkle
+      - path: BearRigPelvis/BearRigBackRLeg1/BearRigBackRLeg2/BearRigBackRLegAnkle
         weight: 1
-      - path: BearRigPelvis/BearRigRLeg1/BearRigRLeg2/BearRigRLegAnkle/BearRigRLegDigit11
+      - path: BearRigPelvis/BearRigBackRLeg1/BearRigBackRLeg2/BearRigBackRLegAnkle/BearRigBackRLegDigit11
         weight: 1
       - path: BearRigPelvis/BearRigSpine1
         weight: 1
@@ -197,33 +228,25 @@ ModelImporter:
         weight: 1
       - path: BearRigPelvis/BearRigSpine1/BearRigSpine2/BearRigChest
         weight: 1
-      - path: BearRigPelvis/BearRigSpine1/BearRigSpine2/BearRigChest/BearRigLLeg1
-          1
+      - path: BearRigPelvis/BearRigSpine1/BearRigSpine2/BearRigChest/BearRigFrontLLeg1
         weight: 1
-      - path: BearRigPelvis/BearRigSpine1/BearRigSpine2/BearRigChest/BearRigLLeg1
-          1/BearRigLLeg2 1
+      - path: BearRigPelvis/BearRigSpine1/BearRigSpine2/BearRigChest/BearRigFrontLLeg1/BearRigFrontLLeg2
         weight: 1
-      - path: BearRigPelvis/BearRigSpine1/BearRigSpine2/BearRigChest/BearRigLLeg1
-          1/BearRigLLeg2 1/BearRigLLegAnkle 1
+      - path: BearRigPelvis/BearRigSpine1/BearRigSpine2/BearRigChest/BearRigFrontLLeg1/BearRigFrontLLeg2/BearRigFrontLLegAnkle
         weight: 1
-      - path: BearRigPelvis/BearRigSpine1/BearRigSpine2/BearRigChest/BearRigLLeg1
-          1/BearRigLLeg2 1/BearRigLLegAnkle 1/BearRigLLegToe1
+      - path: BearRigPelvis/BearRigSpine1/BearRigSpine2/BearRigChest/BearRigFrontLLeg1/BearRigFrontLLeg2/BearRigFrontLLegAnkle/BearRigFrontLLegToe1
+        weight: 1
+      - path: BearRigPelvis/BearRigSpine1/BearRigSpine2/BearRigChest/BearRigFrontRLeg1
+        weight: 1
+      - path: BearRigPelvis/BearRigSpine1/BearRigSpine2/BearRigChest/BearRigFrontRLeg1/BearRigFrontRLeg2
+        weight: 1
+      - path: BearRigPelvis/BearRigSpine1/BearRigSpine2/BearRigChest/BearRigFrontRLeg1/BearRigFrontRLeg2/BearRigFrontRLegAnkle
+        weight: 1
+      - path: BearRigPelvis/BearRigSpine1/BearRigSpine2/BearRigChest/BearRigFrontRLeg1/BearRigFrontRLeg2/BearRigFrontRLegAnkle/BearRigFrontRLegToe1
         weight: 1
       - path: BearRigPelvis/BearRigSpine1/BearRigSpine2/BearRigChest/BearRigNeck
         weight: 1
       - path: BearRigPelvis/BearRigSpine1/BearRigSpine2/BearRigChest/BearRigNeck/BearRigHead
-        weight: 1
-      - path: BearRigPelvis/BearRigSpine1/BearRigSpine2/BearRigChest/BearRigRLeg1
-          1
-        weight: 1
-      - path: BearRigPelvis/BearRigSpine1/BearRigSpine2/BearRigChest/BearRigRLeg1
-          1/BearRigRLeg2 1
-        weight: 1
-      - path: BearRigPelvis/BearRigSpine1/BearRigSpine2/BearRigChest/BearRigRLeg1
-          1/BearRigRLeg2 1/BearRigRLegAnkle 1
-        weight: 1
-      - path: BearRigPelvis/BearRigSpine1/BearRigSpine2/BearRigChest/BearRigRLeg1
-          1/BearRigRLeg2 1/BearRigRLegAnkle 1/BearRigRLegToe1
         weight: 1
       maskType: 0
       maskSource: {instanceID: 0}
