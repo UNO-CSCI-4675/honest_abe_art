@@ -10,11 +10,11 @@ FBXHeaderExtension:  {
 		Version: 1000
 		Year: 2016
 		Month: 2
-		Day: 19
-		Hour: 12
-		Minute: 53
-		Second: 51
-		Millisecond: 411
+		Day: 24
+		Hour: 17
+		Minute: 18
+		Second: 10
+		Millisecond: 105
 	}
 	Creator: "FBX SDK/FBX Plugins version 2016.0"
 	SceneInfo: "SceneInfo::GlobalInfo", "UserData" {
@@ -36,13 +36,13 @@ FBXHeaderExtension:  {
 			P: "Original|ApplicationVendor", "KString", "", "", "Autodesk"
 			P: "Original|ApplicationName", "KString", "", "", "3ds Max"
 			P: "Original|ApplicationVersion", "KString", "", "", "2014"
-			P: "Original|DateTime_GMT", "DateTime", "", "", "19/02/2016 18:53:51.411"
+			P: "Original|DateTime_GMT", "DateTime", "", "", "24/02/2016 23:18:10.103"
 			P: "Original|FileName", "KString", "", "", "C:\Users\etgarci1\Documents\HonestAbeArt\Assets\Models\Musket.FBX"
 			P: "LastSaved", "Compound", "", ""
 			P: "LastSaved|ApplicationVendor", "KString", "", "", "Autodesk"
 			P: "LastSaved|ApplicationName", "KString", "", "", "3ds Max"
 			P: "LastSaved|ApplicationVersion", "KString", "", "", "2014"
-			P: "LastSaved|DateTime_GMT", "DateTime", "", "", "19/02/2016 18:53:51.411"
+			P: "LastSaved|DateTime_GMT", "DateTime", "", "", "24/02/2016 23:18:10.103"
 		}
 	}
 }
@@ -77,7 +77,7 @@ GlobalSettings:  {
 
 Documents:  {
 	Count: 1
-	Document: 1749270896, "", "Scene" {
+	Document: 1241948384, "", "Scene" {
 		Properties70:  {
 			P: "SourceObject", "object", "", ""
 			P: "ActiveAnimStackName", "KString", "", "", ""
@@ -310,10 +310,10 @@ Definitions:  {
 ;------------------------------------------------------------------
 
 Objects:  {
-	NodeAttribute: 1590818624, "NodeAttribute::", "Null" {
+	NodeAttribute: 1491726832, "NodeAttribute::", "Null" {
 		TypeFlags: "Null"
 	}
-	Geometry: 1739326672, "Geometry::", "Mesh" {
+	Geometry: 1483796912, "Geometry::", "Mesh" {
 		Properties70:  {
 			P: "Color", "ColorRGB", "Color", "",0.552941176470588,0.0274509803921569,0.227450980392157
 		}
@@ -390,7 +390,7 @@ Objects:  {
 			}
 		}
 	}
-	Geometry: 1739328304, "Geometry::", "Mesh" {
+	Geometry: 1483797456, "Geometry::", "Mesh" {
 		Properties70:  {
 			P: "Color", "ColorRGB", "Color", "",0.223529411764706,0.0313725490196078,0.533333333333333
 		}
@@ -468,7 +468,7 @@ Objects:  {
 			}
 		}
 	}
-	Geometry: 1739329392, "Geometry::", "Mesh" {
+	Geometry: 1483813232, "Geometry::", "Mesh" {
 		Properties70:  {
 			P: "Color", "ColorRGB", "Color", "",0.337254901960784,0.337254901960784,0.337254901960784
 		}
@@ -548,7 +548,7 @@ Objects:  {
 			}
 		}
 	}
-	Model: 2041650256, "Model::MusketGroup", "Null" {
+	Model: 1493977328, "Model::MusketGroup", "Null" {
 		Version: 232
 		Properties70:  {
 			P: "PreRotation", "Vector3D", "Vector", "",-90,-0,0
@@ -572,7 +572,7 @@ Objects:  {
 		Shading: T
 		Culling: "CullingOff"
 	}
-	Model: 2041637104, "Model::Butt", "Mesh" {
+	Model: 1493981712, "Model::Butt", "Mesh" {
 		Version: 232
 		Properties70:  {
 			P: "InheritType", "enum", "", "",1
@@ -593,7 +593,7 @@ Objects:  {
 		Shading: T
 		Culling: "CullingOff"
 	}
-	Model: 2041652448, "Model::Barrel", "Mesh" {
+	Model: 1493988288, "Model::Barrel", "Mesh" {
 		Version: 232
 		Properties70:  {
 			P: "InheritType", "enum", "", "",1
@@ -615,7 +615,7 @@ Objects:  {
 		Shading: T
 		Culling: "CullingOff"
 	}
-	Model: 2041639296, "Model::Bayonet", "Mesh" {
+	Model: 1493986096, "Model::Bayonet", "Mesh" {
 		Version: 232
 		Properties70:  {
 			P: "InheritType", "enum", "", "",1
@@ -636,7 +636,7 @@ Objects:  {
 		Shading: T
 		Culling: "CullingOff"
 	}
-	Material: 2029596192, "Material::Musket", "" {
+	Material: 1240296000, "Material::Musket", "" {
 		Version: 102
 		ShadingModel: "phong"
 		MultiLayer: 0
@@ -658,7 +658,7 @@ Objects:  {
 			P: "Reflectivity", "double", "Number", "",0
 		}
 	}
-	Video: 1745866736, "Video::Map #0", "Clip" {
+	Video: 1489981248, "Video::Map #0", "Clip" {
 		Type: "Clip"
 		Properties70:  {
 			P: "Path", "KString", "XRefUrl", "", "C:\Users\etgarci1\Documents\HonestAbeArt\Assets\Models\Textures\Musket.png"
@@ -667,7 +667,7 @@ Objects:  {
 		Filename: "C:\Users\etgarci1\Documents\HonestAbeArt\Assets\Models\Textures\Musket.png"
 		RelativeFilename: "Textures\Musket.png"
 	}
-	Texture: 2029609632, "Texture::Map #0", "" {
+	Texture: 1240297920, "Texture::Map #0", "" {
 		Type: "TextureVideoClip"
 		Version: 202
 		TextureName: "Texture::Map #0"
@@ -691,44 +691,44 @@ Objects:  {
 Connections:  {
 	
 	;Model::MusketGroup, Model::RootNode
-	C: "OO",2041650256,0
+	C: "OO",1493977328,0
 	
 	;AnimLayer::BaseLayer, AnimStack::Take 001
-	C: "OO",2035750080,1475318912
+	C: "OO",1487057488,1490772800
 	
 	;Model::Butt, Model::MusketGroup
-	C: "OO",2041637104,2041650256
+	C: "OO",1493981712,1493977328
 	
 	;Model::Barrel, Model::MusketGroup
-	C: "OO",2041652448,2041650256
+	C: "OO",1493988288,1493977328
 	
 	;Model::Bayonet, Model::MusketGroup
-	C: "OO",2041639296,2041650256
+	C: "OO",1493986096,1493977328
 	
 	;NodeAttribute::, Model::MusketGroup
-	C: "OO",1590818624,2041650256
+	C: "OO",1491726832,1493977328
 	
 	;Geometry::, Model::Butt
-	C: "OO",1739326672,2041637104
+	C: "OO",1483796912,1493981712
 	
 	;Material::Musket, Model::Butt
-	C: "OO",2029596192,2041637104
+	C: "OO",1240296000,1493981712
 	
 	;Geometry::, Model::Barrel
-	C: "OO",1739328304,2041652448
+	C: "OO",1483797456,1493988288
 	
 	;Material::Musket, Model::Barrel
-	C: "OO",2029596192,2041652448
+	C: "OO",1240296000,1493988288
 	
 	;Geometry::, Model::Bayonet
-	C: "OO",1739329392,2041639296
+	C: "OO",1483813232,1493986096
 	
 	;Material::Musket, Model::Bayonet
-	C: "OO",2029596192,2041639296
+	C: "OO",1240296000,1493986096
 	
 	;Texture::Map #0, Material::Musket
-	C: "OP",2029609632,2029596192, "DiffuseColor"
+	C: "OP",1240297920,1240296000, "DiffuseColor"
 	
 	;Video::Map #0, Texture::Map #0
-	C: "OO",1745866736,2029609632
+	C: "OO",1489981248,1240297920
 }
