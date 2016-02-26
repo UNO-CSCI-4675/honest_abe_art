@@ -161,8 +161,22 @@ ModelImporter:
       that might lower retargeting quality:\nNote: Activate translation DOF on avatar
       to improve retargeting quality.\n\t'MiddleSpine' is inbetween humanoid transforms
       and has rotation animation that will be discarded.\n"
-    animationRetargetingWarnings: 
-    animationDoRetargetingWarnings: 0
+    animationRetargetingWarnings: "\nRetargeting quality report for clip 'iPi Default
+      Take':\n\tLeftLowerLeg average position error 1.5 mm and maximum position error
+      24.4 mm at time 0: 1 (0.1%) Frame 1\n\tRightLowerLeg average position error
+      3.6 mm and maximum position error 43.9 mm at time 0: 1 (0.1%) Frame 1\n\tRightFoot
+      average position error 0.3 mm and maximum position error 2.1 mm at time 49:
+      2 (92.3%) Frame 1472\n\tLeftUpperArm average position error 7.0 mm and maximum
+      position error 18.0 mm at time 30: 4 (56.7%) Frame 904\n\tLeftLowerArm average
+      position error 3.8 mm and maximum position error 25.8 mm at time 27: 3 (51.0%)
+      Frame 813\n\tLeftHand average position error 3.3 mm and maximum position error
+      12.1 mm at time 30:17 (57.5%) Frame 917\n\tRightUpperArm average position error
+      7.0 mm and maximum position error 18.0 mm at time 30: 4 (56.7%) Frame 904\n\tRightLowerArm
+      average position error 4.6 mm and maximum position error 30.2 mm at time 5:21
+      (10.7%) Frame 171\n\tRightHand average position error 2.8 mm and maximum position
+      error 11.3 mm at time 18:19 (35.0%) Frame 559\n\tHead average position error
+      7.0 mm and maximum position error 18.0 mm at time 30: 4 (56.7%) Frame 904\n"
+    animationDoRetargetingWarnings: 1
     animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -176,17 +190,17 @@ ModelImporter:
       firstFrame: 494
       lastFrame: 542
       wrapMode: 0
-      orientationOffsetY: 0
+      orientationOffsetY: -70
       level: 0
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
-      loopBlendOrientation: 0
+      loopBlendOrientation: 1
       loopBlendPositionY: 0
       loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
+      keepOriginalOrientation: 1
       keepOriginalPositionY: 1
       keepOriginalPositionXZ: 0
       heightFromFeet: 0
@@ -336,14 +350,14 @@ ModelImporter:
       firstFrame: 540
       lastFrame: 570
       wrapMode: 0
-      orientationOffsetY: 0
+      orientationOffsetY: -30
       level: 0
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
-      loopBlendOrientation: 0
+      loopBlendOrientation: 1
       loopBlendPositionY: 0
       loopBlendPositionXZ: 0
       keepOriginalOrientation: 0
@@ -663,7 +677,7 @@ ModelImporter:
       hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
-      loopBlendOrientation: 0
+      loopBlendOrientation: 1
       loopBlendPositionY: 0
       loopBlendPositionXZ: 0
       keepOriginalOrientation: 0
