@@ -9,12 +9,12 @@ FBXHeaderExtension:  {
 	CreationTimeStamp:  {
 		Version: 1000
 		Year: 2016
-		Month: 2
-		Day: 24
-		Hour: 17
-		Minute: 18
-		Second: 10
-		Millisecond: 105
+		Month: 3
+		Day: 4
+		Hour: 21
+		Minute: 51
+		Second: 32
+		Millisecond: 55
 	}
 	Creator: "FBX SDK/FBX Plugins version 2016.0"
 	SceneInfo: "SceneInfo::GlobalInfo", "UserData" {
@@ -30,19 +30,19 @@ FBXHeaderExtension:  {
 			Comment: ""
 		}
 		Properties70:  {
-			P: "DocumentUrl", "KString", "Url", "", "C:\Users\etgarci1\Documents\HonestAbeArt\Assets\Models\Musket.FBX"
-			P: "SrcDocumentUrl", "KString", "Url", "", "C:\Users\etgarci1\Documents\HonestAbeArt\Assets\Models\Musket.FBX"
+			P: "DocumentUrl", "KString", "Url", "", "D:\Documents\Unity\HonestAbeArt\Assets\Models\Musket.FBX"
+			P: "SrcDocumentUrl", "KString", "Url", "", "D:\Documents\Unity\HonestAbeArt\Assets\Models\Musket.FBX"
 			P: "Original", "Compound", "", ""
 			P: "Original|ApplicationVendor", "KString", "", "", "Autodesk"
 			P: "Original|ApplicationName", "KString", "", "", "3ds Max"
 			P: "Original|ApplicationVersion", "KString", "", "", "2014"
-			P: "Original|DateTime_GMT", "DateTime", "", "", "24/02/2016 23:18:10.103"
-			P: "Original|FileName", "KString", "", "", "C:\Users\etgarci1\Documents\HonestAbeArt\Assets\Models\Musket.FBX"
+			P: "Original|DateTime_GMT", "DateTime", "", "", "05/03/2016 03:51:32.054"
+			P: "Original|FileName", "KString", "", "", "D:\Documents\Unity\HonestAbeArt\Assets\Models\Musket.FBX"
 			P: "LastSaved", "Compound", "", ""
 			P: "LastSaved|ApplicationVendor", "KString", "", "", "Autodesk"
 			P: "LastSaved|ApplicationName", "KString", "", "", "3ds Max"
 			P: "LastSaved|ApplicationVersion", "KString", "", "", "2014"
-			P: "LastSaved|DateTime_GMT", "DateTime", "", "", "24/02/2016 23:18:10.103"
+			P: "LastSaved|DateTime_GMT", "DateTime", "", "", "05/03/2016 03:51:32.054"
 		}
 	}
 }
@@ -77,7 +77,7 @@ GlobalSettings:  {
 
 Documents:  {
 	Count: 1
-	Document: 1241948384, "", "Scene" {
+	Document: 1311230944, "", "Scene" {
 		Properties70:  {
 			P: "SourceObject", "object", "", ""
 			P: "ActiveAnimStackName", "KString", "", "", ""
@@ -310,10 +310,10 @@ Definitions:  {
 ;------------------------------------------------------------------
 
 Objects:  {
-	NodeAttribute: 1491726832, "NodeAttribute::", "Null" {
+	NodeAttribute: 664522752, "NodeAttribute::", "Null" {
 		TypeFlags: "Null"
 	}
-	Geometry: 1483796912, "Geometry::", "Mesh" {
+	Geometry: 1580697472, "Geometry::", "Mesh" {
 		Properties70:  {
 			P: "Color", "ColorRGB", "Color", "",0.552941176470588,0.0274509803921569,0.227450980392157
 		}
@@ -390,7 +390,7 @@ Objects:  {
 			}
 		}
 	}
-	Geometry: 1483797456, "Geometry::", "Mesh" {
+	Geometry: 1580698560, "Geometry::", "Mesh" {
 		Properties70:  {
 			P: "Color", "ColorRGB", "Color", "",0.223529411764706,0.0313725490196078,0.533333333333333
 		}
@@ -468,7 +468,7 @@ Objects:  {
 			}
 		}
 	}
-	Geometry: 1483813232, "Geometry::", "Mesh" {
+	Geometry: 1580708352, "Geometry::", "Mesh" {
 		Properties70:  {
 			P: "Color", "ColorRGB", "Color", "",0.337254901960784,0.337254901960784,0.337254901960784
 		}
@@ -548,17 +548,17 @@ Objects:  {
 			}
 		}
 	}
-	Model: 1493977328, "Model::MusketGroup", "Null" {
+	Model: 1843443600, "Model::MusketGroup", "Null" {
 		Version: 232
 		Properties70:  {
 			P: "PreRotation", "Vector3D", "Vector", "",-90,-0,0
 			P: "RotationActive", "bool", "", "",1
 			P: "InheritType", "enum", "", "",1
 			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
-			P: "GeometricTranslation", "Vector3D", "Vector", "",-9.52330424297543e-007,1.71661376953125e-005,-19.7442493438721
-			P: "GeometricRotation", "Vector3D", "Vector", "",180,-0,0
+			P: "GeometricTranslation", "Vector3D", "Vector", "",19.7442493438721,1.80291863216553e-005,-1.72609827586712e-006
+			P: "GeometricRotation", "Vector3D", "Vector", "",-180,-90,0
 			P: "DefaultAttributeIndex", "int", "Integer", "",0
-			P: "Lcl Rotation", "Lcl Rotation", "", "A",90.000002504478,-0,0
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",90.000002504478,-0,89.9999993167547
 			P: "Lcl Scaling", "Lcl Scaling", "", "A",0.148646965622902,0.148646965622902,0.148646965622902
 			P: "mr displacement use global settings", "Bool", "", "AU",1
 			P: "mr displacement view dependent", "Bool", "", "AU",1
@@ -572,15 +572,16 @@ Objects:  {
 		Shading: T
 		Culling: "CullingOff"
 	}
-	Model: 1493981712, "Model::Butt", "Mesh" {
+	Model: 1843426064, "Model::Butt", "Mesh" {
 		Version: 232
 		Properties70:  {
 			P: "InheritType", "enum", "", "",1
 			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "GeometricRotation", "Vector3D", "Vector", "",-90,-6.10666573731822e-013,-3.42347244303154e-013
 			P: "GeometricScaling", "Vector3D", "Vector", "",0.27985891699791,1.676682472229,1
 			P: "DefaultAttributeIndex", "int", "Integer", "",0
-			P: "Lcl Translation", "Lcl Translation", "", "A",-0.0287435036152601,5.94747877120972,-103.64427947998
-			P: "Lcl Rotation", "Lcl Rotation", "", "A",-90.0000025044777,-0,0
+			P: "Lcl Translation", "Lcl Translation", "", "A",103.64427947998,5.94748401641846,-0.0287560969591141
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",4.85314129861978e-020,-89.9999888441009,0
 			P: "mr displacement use global settings", "Bool", "", "AU",1
 			P: "mr displacement view dependent", "Bool", "", "AU",1
 			P: "mr displacement method", "Integer", "", "AU",6,6,6
@@ -593,15 +594,15 @@ Objects:  {
 		Shading: T
 		Culling: "CullingOff"
 	}
-	Model: 1493988288, "Model::Barrel", "Mesh" {
+	Model: 1843428256, "Model::Barrel", "Mesh" {
 		Version: 232
 		Properties70:  {
 			P: "InheritType", "enum", "", "",1
 			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
 			P: "GeometricScaling", "Vector3D", "Vector", "",0.386324197053909,0.386324197053909,3.51471138000488
 			P: "DefaultAttributeIndex", "int", "Integer", "",0
-			P: "Lcl Translation", "Lcl Translation", "", "A",-0.0287435036152601,29.1171379089355,-51.8607749938965
-			P: "Lcl Rotation", "Lcl Rotation", "", "A",6.83018917001272e-006,-0,0
+			P: "Lcl Translation", "Lcl Translation", "", "A",51.8607749938965,29.1171398162842,-0.0287541225552559
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",6.83018957712364e-006,-89.9999888441009,0
 			P: "Lcl Scaling", "Lcl Scaling", "", "A",1,0.999999940395355,0.999999940395355
 			P: "mr displacement use global settings", "Bool", "", "AU",1
 			P: "mr displacement view dependent", "Bool", "", "AU",1
@@ -615,14 +616,14 @@ Objects:  {
 		Shading: T
 		Culling: "CullingOff"
 	}
-	Model: 1493986096, "Model::Bayonet", "Mesh" {
+	Model: 1843430448, "Model::Bayonet", "Mesh" {
 		Version: 232
 		Properties70:  {
 			P: "InheritType", "enum", "", "",1
 			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
 			P: "DefaultAttributeIndex", "int", "Integer", "",0
-			P: "Lcl Translation", "Lcl Translation", "", "A",-0.0464976355433464,29.1950149536133,105.017501831055
-			P: "Lcl Rotation", "Lcl Rotation", "", "A",6.83018965413924e-006,-0,0
+			P: "Lcl Translation", "Lcl Translation", "", "A",-105.017501831055,29.195011138916,-0.0464802235364914
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",6.83018965413911e-006,-89.9999888441011,0
 			P: "Lcl Scaling", "Lcl Scaling", "", "A",6.72734880447388,6.72734880447388,6.72734880447388
 			P: "mr displacement use global settings", "Bool", "", "AU",1
 			P: "mr displacement view dependent", "Bool", "", "AU",1
@@ -636,7 +637,7 @@ Objects:  {
 		Shading: T
 		Culling: "CullingOff"
 	}
-	Material: 1240296000, "Material::Musket", "" {
+	Material: 1849449952, "Material::Musket", "" {
 		Version: 102
 		ShadingModel: "phong"
 		MultiLayer: 0
@@ -658,16 +659,16 @@ Objects:  {
 			P: "Reflectivity", "double", "Number", "",0
 		}
 	}
-	Video: 1489981248, "Video::Map #0", "Clip" {
+	Video: 1847102544, "Video::Map #0", "Clip" {
 		Type: "Clip"
 		Properties70:  {
-			P: "Path", "KString", "XRefUrl", "", "C:\Users\etgarci1\Documents\HonestAbeArt\Assets\Models\Textures\Musket.png"
+			P: "Path", "KString", "XRefUrl", "", "D:\Documents\Unity\HonestAbeArt\Assets\Models\UVMaps\Musket.png"
 		}
 		UseMipMap: 0
-		Filename: "C:\Users\etgarci1\Documents\HonestAbeArt\Assets\Models\Textures\Musket.png"
-		RelativeFilename: "Textures\Musket.png"
+		Filename: "D:\Documents\Unity\HonestAbeArt\Assets\Models\UVMaps\Musket.png"
+		RelativeFilename: "UVMaps\Musket.png"
 	}
-	Texture: 1240297920, "Texture::Map #0", "" {
+	Texture: 1849450432, "Texture::Map #0", "" {
 		Type: "TextureVideoClip"
 		Version: 202
 		TextureName: "Texture::Map #0"
@@ -676,8 +677,8 @@ Objects:  {
 			P: "UseMaterial", "bool", "", "",1
 		}
 		Media: "Video::Map #0"
-		FileName: "C:\Users\etgarci1\Documents\HonestAbeArt\Assets\Models\Textures\Musket.png"
-		RelativeFilename: "Textures\Musket.png"
+		FileName: "D:\Documents\Unity\HonestAbeArt\Assets\Models\UVMaps\Musket.png"
+		RelativeFilename: "UVMaps\Musket.png"
 		ModelUVTranslation: 0,0
 		ModelUVScaling: 1,1
 		Texture_Alpha_Source: "Alpha_Black"
@@ -691,44 +692,44 @@ Objects:  {
 Connections:  {
 	
 	;Model::MusketGroup, Model::RootNode
-	C: "OO",1493977328,0
+	C: "OO",1843443600,0
 	
 	;AnimLayer::BaseLayer, AnimStack::Take 001
-	C: "OO",1487057488,1490772800
+	C: "OO",1991999184,1999355312
 	
 	;Model::Butt, Model::MusketGroup
-	C: "OO",1493981712,1493977328
+	C: "OO",1843426064,1843443600
 	
 	;Model::Barrel, Model::MusketGroup
-	C: "OO",1493988288,1493977328
+	C: "OO",1843428256,1843443600
 	
 	;Model::Bayonet, Model::MusketGroup
-	C: "OO",1493986096,1493977328
+	C: "OO",1843430448,1843443600
 	
 	;NodeAttribute::, Model::MusketGroup
-	C: "OO",1491726832,1493977328
+	C: "OO",664522752,1843443600
 	
 	;Geometry::, Model::Butt
-	C: "OO",1483796912,1493981712
+	C: "OO",1580697472,1843426064
 	
 	;Material::Musket, Model::Butt
-	C: "OO",1240296000,1493981712
+	C: "OO",1849449952,1843426064
 	
 	;Geometry::, Model::Barrel
-	C: "OO",1483797456,1493988288
+	C: "OO",1580698560,1843428256
 	
 	;Material::Musket, Model::Barrel
-	C: "OO",1240296000,1493988288
+	C: "OO",1849449952,1843428256
 	
 	;Geometry::, Model::Bayonet
-	C: "OO",1483813232,1493986096
+	C: "OO",1580708352,1843430448
 	
 	;Material::Musket, Model::Bayonet
-	C: "OO",1240296000,1493986096
+	C: "OO",1849449952,1843430448
 	
 	;Texture::Map #0, Material::Musket
-	C: "OP",1240297920,1240296000, "DiffuseColor"
+	C: "OP",1849450432,1849449952, "DiffuseColor"
 	
 	;Video::Map #0, Texture::Map #0
-	C: "OO",1489981248,1240297920
+	C: "OO",1847102544,1849450432
 }
