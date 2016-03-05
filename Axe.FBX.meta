@@ -13,8 +13,10 @@ ModelImporter:
     400004: Handle
     2300000: Blade
     2300002: Handle
+    2300004: //RootNode
     3300000: Blade
     3300002: Handle
+    3300004: //RootNode
     4300000: Handle
     4300002: Blade
   materials:
