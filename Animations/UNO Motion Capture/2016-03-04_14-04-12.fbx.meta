@@ -145,6 +145,7 @@ ModelImporter:
     7400010: Riflemen Fire 3
     7400012: Riflemen Reload 1
     7400014: Riflemen Reload 2
+    7400016: T-Pose
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -177,7 +178,7 @@ ModelImporter:
       lastFrame: 151
       wrapMode: 0
       orientationOffsetY: 0
-      level: 0.1
+      level: -0.05
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
@@ -337,7 +338,7 @@ ModelImporter:
       lastFrame: 328
       wrapMode: 0
       orientationOffsetY: 0
-      level: 0.1
+      level: -0.05
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
@@ -497,7 +498,7 @@ ModelImporter:
       lastFrame: 742
       wrapMode: 0
       orientationOffsetY: 0
-      level: 0.1
+      level: -0.05
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
@@ -657,12 +658,12 @@ ModelImporter:
       lastFrame: 770
       wrapMode: 0
       orientationOffsetY: 0
-      level: 0.1
+      level: -0.05
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
+      loopTime: 1
+      loopBlend: 1
       loopBlendOrientation: 1
       loopBlendPositionY: 1
       loopBlendPositionXZ: 1
@@ -817,12 +818,12 @@ ModelImporter:
       lastFrame: 830
       wrapMode: 0
       orientationOffsetY: 0
-      level: 0.1
+      level: -0.05
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
+      loopTime: 1
+      loopBlend: 1
       loopBlendOrientation: 1
       loopBlendPositionY: 1
       loopBlendPositionXZ: 1
@@ -977,12 +978,12 @@ ModelImporter:
       lastFrame: 888
       wrapMode: 0
       orientationOffsetY: 0
-      level: 0.1
+      level: -0.05
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
+      loopTime: 1
+      loopBlend: 1
       loopBlendOrientation: 1
       loopBlendPositionY: 1
       loopBlendPositionXZ: 1
@@ -1137,12 +1138,12 @@ ModelImporter:
       lastFrame: 1303
       wrapMode: 0
       orientationOffsetY: 0
-      level: 0.1
+      level: -0.05
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
+      loopTime: 1
+      loopBlend: 1
       loopBlendOrientation: 1
       loopBlendPositionY: 1
       loopBlendPositionXZ: 1
@@ -1301,8 +1302,8 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
+      loopTime: 1
+      loopBlend: 1
       loopBlendOrientation: 1
       loopBlendPositionY: 1
       loopBlendPositionXZ: 1
