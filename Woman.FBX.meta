@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 99dd0d7fea1805b46bc1b922248ab358
-timeCreated: 1453660378
+timeCreated: 1457837757
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
@@ -40,6 +40,10 @@ ModelImporter:
     100064: RightArm
     100066: RightLeg
     100068: Torso
+    100070: WomanRigLArmFingers1
+    100072: WomanRigLArmThumb1
+    100074: WomanRigRArmFingers1
+    100076: WomanRigRArmThumb1
     400000: //RootNode
     400002: Woman
     400004: WomanGroup
@@ -75,8 +79,14 @@ ModelImporter:
     400064: RightArm
     400066: RightLeg
     400068: Torso
+    400070: WomanRigLArmFingers1
+    400072: WomanRigLArmThumb1
+    400074: WomanRigRArmFingers1
+    400076: WomanRigRArmThumb1
     2300000: //RootNode
+    2300002: Head
     3300000: //RootNode
+    3300002: Head
     4300000: Woman
     4300002: Head
     4300004: LeftArm
@@ -100,23 +110,16 @@ ModelImporter:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
     resampleRotations: 1
-    optimizeGameObjects: 1
+    optimizeGameObjects: 0
     motionNodeName: 
-    animationImportErrors: 
-    animationImportWarnings: "\nDefault bone length found in this file is different
-      form the one found in the source avatar:\n\t'WomanRigLLeg1' : position error
-      = 6.126420 mm\n\t'WomanRigLLeg2' : position error = 4.875261 mm\n\t'WomanRigLLegFoot'
-      : position error = 7.751521 mm\n\t'WomanRigLLegToes1' : position error = 3.409115
-      mm\n\t'WomanRigRLeg1' : position error = 6.126471 mm\n\t'WomanRigRLeg2' : position
-      error = 4.875295 mm\n\t'WomanRigRLegFoot' : position error = 7.751349 mm\n\t'WomanRigRLegToes1'
-      : position error = 3.409131 mm\n\t'WomanRigSpine2' : position error = 8.544565
-      mm\n\t'WomanRigChest' : position error = 1.812604 mm\n\t'WomanRigLArm1' : position
-      error = 1.710447 mm\n\t'WomanRigLArmHand' : position error = 10.676472 mm\n\t'WomanRigNeck'
-      : position error = 66.648804 mm\n\t'WomanRigHead' : position error = 111.718224
-      mm\n\t'WomanRigRArm1' : position error = 1.710405 mm\n\t'WomanRigRArmHand' :
-      position error = 10.676334 mm\n\nInbetween bone default rotation found in this
-      file is different from the one found in the source avatar:\n\t'WomanRigChest'
-      : rotation error = 6.873725 deg\n"
+    animationImportErrors: '
+
+      Imported file ''Woman'' conversion failed: Transform ''WomanRigHead'' for human
+      bone ''Head'' not found
+
+
+'
+    animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     animationCompression: 3
@@ -327,139 +330,159 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: Woman
-      position: {x: 0.029346945, y: 0.0000000020583992, z: -0.031384017}
-      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
-      scale: {x: 0.055988785, y: 0.17984644, z: 0.12694582}
-      transformModified: 1
-    - name: WomanRigHips
-      position: {x: -0.0000000015116749, y: 0.3844153, z: -0.034583617}
-      rotation: {x: 0.50000006, y: -0.50000006, z: -0.4999999, w: 0.5}
+      position: {x: 0.000000012111664, y: 0, z: 0}
+      rotation: {x: 0.000000021855694, y: 0, z: 0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
+    - name: Head
+      position: {x: -0.000000012111664, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+      scale: {x: 1.0121685, y: 1.0121685, z: 1.0121685}
+      transformModified: 1
+    - name: LeftArm
+      position: {x: -0.000000012111664, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+      scale: {x: 1.0121685, y: 1.0121685, z: 1.0121685}
+      transformModified: 1
+    - name: LeftLeg
+      position: {x: -0.000000012111664, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+      scale: {x: 1.0121685, y: 1.0121685, z: 1.0121685}
+      transformModified: 1
+    - name: RightArm
+      position: {x: -0.000000012111664, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+      scale: {x: 1.0121685, y: 1.0121685, z: 1.0121685}
+      transformModified: 1
+    - name: RightLeg
+      position: {x: -0.000000012111664, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+      scale: {x: 1.0121685, y: 1.0121685, z: 1.0121685}
+      transformModified: 1
+    - name: Torso
+      position: {x: -0.000000012111664, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+      scale: {x: 1.0121685, y: 1.0121685, z: 1.0121685}
+      transformModified: 1
+    - name: WomanRigHips
+      position: {x: -0.0000000010691319, y: 0.3814346, z: 0.015970659}
+      rotation: {x: 0.579228, y: -0.40557986, z: -0.5792279, w: 0.40557978}
+      scale: {x: 1, y: 0.99999994, z: 1}
+      transformModified: 1
     - name: WomanRigLLeg1
-      position: {x: 0.000000048446655, y: -0.012192527, z: 0.04064}
-      rotation: {x: -0.03314528, y: 0.9992454, z: -0.017991513, w: -0.009294614}
-      scale: {x: 0.9999998, y: 0.99999994, z: 0.9999996}
+      position: {x: 0.00254546, y: -0.011696233, z: 0.04003768}
+      rotation: {x: -0.18700266, y: 0.9822696, z: -0.003798653, w: -0.012730401}
+      scale: {x: 0.99999994, y: 1, z: 1}
       transformModified: 1
     - name: WomanRigLLeg2
-      position: {x: -0.17385423, y: 0.00000000756979, z: 0}
-      rotation: {x: 0.015069827, y: 0.0017050207, z: 0.07030848, w: 0.99741006}
-      scale: {x: 1.0000002, y: 1.0000006, z: 1.0000002}
+      position: {x: -0.17173558, y: -0.000000001513958, z: 0.000000003027916}
+      rotation: {x: 0.0021031087, y: -0.0071771406, z: 0.09719347, w: 0.9952374}
+      scale: {x: 1, y: 1.0000001, z: 1.0000002}
       transformModified: 1
     - name: WomanRigLLegFoot
-      position: {x: -0.15790188, y: -0.000000018167496, z: 0}
-      rotation: {x: -0.030312952, y: -0.016992925, z: -0.28280142, w: 0.9585488}
-      scale: {x: 0.99999994, y: 1.0000001, z: 0.9999999}
+      position: {x: -0.16127047, y: 0.000000003027916, z: 0}
+      rotation: {x: -0.0031693976, y: -0.0065909303, z: -0.32662955, w: 0.94512415}
+      scale: {x: 1.0000008, y: 0.9999992, z: 0.99999994}
       transformModified: 1
     - name: WomanRigLLegToes1
-      position: {x: -0.05369849, y: 0.003957894, z: -0.0000013837575}
-      rotation: {x: 0.00014087556, y: -0.00023712954, z: -0.51038367, w: 0.8599467}
-      scale: {x: 0.9999999, y: 1.0000001, z: 1.0000001}
+      position: {x: -0.05222766, y: 0.004135396, z: -0.00000034518243}
+      rotation: {x: 0.00010644033, y: -0.00017937139, z: -0.51101327, w: 0.8595728}
+      scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: WomanRigRLeg1
-      position: {x: 0.000000048446655, y: -0.012192527, z: -0.040640008}
-      rotation: {x: -0.03314526, y: 0.99924535, z: 0.017991437, w: 0.009294762}
-      scale: {x: 1, y: 1.0000001, z: 0.9999999}
+      position: {x: 0.00254546, y: -0.011696221, z: -0.040037688}
+      rotation: {x: -0.18700327, y: 0.98226947, z: 0.0037986604, w: 0.0127304355}
+      scale: {x: 1, y: 1.0000001, z: 1}
       transformModified: 1
     - name: WomanRigRLeg2
-      position: {x: -0.17385426, y: 0.000000010597706, z: 0.000000003027916}
-      rotation: {x: -0.015069678, y: -0.0016988218, z: 0.070237234, w: 0.9974151}
-      scale: {x: 1, y: 1.0000004, z: 1.0000001}
+      position: {x: -0.17173558, y: -0.000000001513958, z: -0.000000003027916}
+      rotation: {x: -0.0021029916, y: 0.0071758614, z: 0.09719318, w: 0.99523747}
+      scale: {x: 1, y: 0.99999994, z: 1}
       transformModified: 1
     - name: WomanRigRLegFoot
-      position: {x: -0.1579019, y: -0.000000018167496, z: -0.000000003027916}
-      rotation: {x: 0.03031411, y: 0.016975712, z: -0.28256768, w: 0.9586179}
-      scale: {x: 1.0000001, y: 1.0000005, z: 1.0000002}
+      position: {x: -0.16127051, y: 0.00000023920535, z: -0.00000054199694}
+      rotation: {x: 0.0031695487, y: 0.006590583, z: -0.3266294, w: 0.9451242}
+      scale: {x: 1.0000008, y: 0.99999934, z: 1.0000001}
       transformModified: 1
     - name: WomanRigRLegToes1
-      position: {x: -0.05369849, y: 0.003957893, z: 0.0000013837575}
-      rotation: {x: -0.00014469028, y: 0.00024328384, z: -0.510532, w: 0.85985875}
-      scale: {x: 0.9999995, y: 1, z: 0.9999998}
+      position: {x: -0.052227657, y: 0.004135396, z: 0.00000034518243}
+      rotation: {x: -0.00010644033, y: 0.00017937142, z: -0.51101327, w: 0.8595728}
+      scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: WomanRigSpine1
       position: {x: 0, y: 0, z: 0}
-      rotation: {x: -0.000000029802322, y: -0.00000011920929, z: -0.18534419, w: 0.9826737}
-      scale: {x: 0.9999999, y: 0.9999997, z: 0.99999976}
+      rotation: {x: -0.00000038162324, y: -0.0000022006811, z: 0.08489718, w: 0.99638975}
+      scale: {x: 1, y: 0.99999994, z: 1}
       transformModified: 1
     - name: WomanRigSpine2
-      position: {x: -0.1107662, y: 0, z: 2.8876456e-15}
-      rotation: {x: -0.000000029802322, y: 0.00000008940697, z: 0.25285405, w: 0.9675045}
-      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000002}
+      position: {x: -0.11447942, y: 0, z: 1.8480932e-13}
+      rotation: {x: 0.0000006417162, y: 0.00000016819433, z: 0.09803064, w: 0.9951834}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1}
       transformModified: 1
     - name: WomanRigChest
-      position: {x: -0.11254027, y: 0.000000006055832, z: 0}
-      rotation: {x: 0.0000000745058, y: 0, z: -0.06915168, w: 0.99760616}
-      scale: {x: 1, y: 1, z: 1.0000001}
-      transformModified: 1
-    - name: WomanRigNeck
-      position: {x: 0, y: 0, z: 0}
-      rotation: {x: -0.000000014901161, y: -0.000000029802322, z: -0.066160455, w: 0.99780905}
-      scale: {x: 0.9999998, y: 0.9999997, z: 0.9999997}
-      transformModified: 1
-    - name: WomanRigHead
-      position: {x: -0.19691381, y: -0.000000006055832, z: 1.4438228e-15}
-      rotation: {x: 0, y: 0.000000029802326, z: 0.06616045, w: 0.997809}
-      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000002}
+      position: {x: -0.11175258, y: 0.000000003027916, z: 0}
+      rotation: {x: 0.0000003122536, y: 0.0000019396584, z: -0.008654778, w: 0.99996257}
+      scale: {x: 0.9999999, y: 1, z: 1}
       transformModified: 1
     - name: WomanRigLArmShoulder
-      position: {x: -0, y: 0, z: 0.020320004}
-      rotation: {x: -0.0000000912696, y: 0.6581758, z: 0.00000008940696, w: 0.75286424}
-      scale: {x: 0.9999998, y: 0.99999976, z: 0.9999997}
+      position: {x: -0, y: 0, z: 0.019939002}
+      rotation: {x: 0.06786596, y: 0.66178346, z: 0.07085992, w: 0.74324673}
+      scale: {x: 1, y: 1, z: 0.99999994}
       transformModified: 1
     - name: WomanRigLArm1
-      position: {x: -0.04661253, y: 7.56979e-10, z: 0}
-      rotation: {x: 0.058222566, y: 0.050551135, z: 0.033417553, w: 0.9964627}
-      scale: {x: 0.9999999, y: 1.0000001, z: 0.9999999}
+      position: {x: -0.047355853, y: 0, z: 0}
+      rotation: {x: 0.0036103763, y: 0.05060493, z: -0.05789224, w: 0.99703294}
+      scale: {x: 1, y: 1, z: 0.99999994}
       transformModified: 1
     - name: WomanRigLArm2
-      position: {x: -0.11601706, y: -0.000000006055832, z: 0}
-      rotation: {x: -0.070814125, y: 0.014962539, z: -0.077277236, w: 0.9943791}
-      scale: {x: 0.99999994, y: 1.0000002, z: 1.0000001}
+      position: {x: -0.1158205, y: -0.000000027251243, z: -0.0000007751465}
+      rotation: {x: 0.0018014298, y: -0.0011826715, z: -0.080768965, w: 0.9967305}
+      scale: {x: 0.99999994, y: 1.0000001, z: 0.99999994}
       transformModified: 1
     - name: WomanRigLArmHand
-      position: {x: -0.12791033, y: 0.000000048446655, z: 0.000000048446655}
-      rotation: {x: -0.69694996, y: -0.0025333583, z: 0.031055218, w: 0.71644264}
-      scale: {x: 1.0000001, y: 0.99999964, z: 0.99999964}
+      position: {x: -0.13255, y: -0.000000032928586, z: -0.0000007751465}
+      rotation: {x: -0.7085045, y: -0.008603486, z: 0.04129358, w: 0.7044446}
+      scale: {x: 0.99999934, y: 1.0000005, z: 1}
       transformModified: 1
-    - name: WomanRigLArmDigit21
-      position: {x: -0.0212597, y: -0.000000048446655, z: -0.000000010597706}
-      rotation: {x: -1.4876989e-14, y: -1.3544721e-14, z: -0.0000000027939677, w: 1}
-      scale: {x: 1.0000001, y: 0.99999964, z: 0.9999998}
+    - name: WomanRigLArmFingers1
+      position: {x: -0.016186971, y: 0.00000009689331, z: -0.000000001513958}
+      rotation: {x: -0.000001412833, y: -0.00000003824283, z: -0.0000031450784, w: 1}
+      scale: {x: 0.99999934, y: 1.0000006, z: 1}
       transformModified: 1
-    - name: WomanRigLArmDigit11
-      position: {x: -0.009979212, y: -0.00008502388, z: 0.021725763}
-      rotation: {x: -0.004288287, y: 0.7067074, z: -0.014062017, w: 0.70735323}
-      scale: {x: 0.99999976, y: 0.9999997, z: 0.9999999}
+    - name: WomanRigLArmThumb1
+      position: {x: -0.008062226, y: 0.00007562523, z: 0.019938983}
+      rotation: {x: 0.010516791, y: 0.7105968, z: 0.0020843695, w: 0.7035178}
+      scale: {x: 1.0000001, y: 1.0000004, z: 0.9999996}
       transformModified: 1
     - name: WomanRigRArmShoulder
-      position: {x: -0, y: 0, z: -0.020320004}
-      rotation: {x: -0.000000059604638, y: 0.6581759, z: -0.00000018998978, w: -0.75286424}
-      scale: {x: 1, y: 1, z: 1.0000001}
+      position: {x: -0, y: 0, z: -0.019939}
+      rotation: {x: -0.06786599, y: -0.66178346, z: 0.07085992, w: 0.74324673}
+      scale: {x: 0.99999994, y: 1, z: 1}
       transformModified: 1
     - name: WomanRigRArm1
-      position: {x: -0.04661254, y: 7.56979e-10, z: 0}
-      rotation: {x: -0.058222517, y: -0.0505512, z: 0.033417694, w: 0.99646276}
-      scale: {x: 0.99999964, y: 1, z: 0.99999976}
+      position: {x: -0.047355834, y: -0.000000006055832, z: -0.000000048446655}
+      rotation: {x: -0.0036091502, y: -0.05060585, z: -0.057890877, w: 0.997033}
+      scale: {x: 0.9999999, y: 0.99999994, z: 1}
       transformModified: 1
     - name: WomanRigRArm2
-      position: {x: -0.11601704, y: 0.000000006055832, z: 0}
-      rotation: {x: 0.070814304, y: -0.01496216, z: -0.07727661, w: 0.99437916}
-      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+      position: {x: -0.11582052, y: 0.000000024223327, z: -0.0000007751465}
+      rotation: {x: -0.0017985997, y: 0.0011787805, z: -0.08077266, w: 0.9967303}
+      scale: {x: 1, y: 0.9999999, z: 1.0000001}
       transformModified: 1
     - name: WomanRigRArmHand
-      position: {x: -0.12791033, y: -0.000000048446655, z: 0.000000048446655}
-      rotation: {x: 0.6969498, y: 0.0025328132, z: 0.031055156, w: 0.7164429}
-      scale: {x: 0.99999946, y: 0.99999976, z: 0.99999917}
+      position: {x: -0.13255002, y: 0.000000026872753, z: -0.00000082359315}
+      rotation: {x: 0.7085065, y: 0.008599088, z: 0.041297927, w: 0.7044423}
+      scale: {x: 1.0000006, y: 0.9999994, z: 0.99999994}
       transformModified: 1
-    - name: WomanRigRArmDigit21
-      position: {x: -0.021259677, y: 0.000000048446655, z: -0.000000010597706}
-      rotation: {x: 1.4210855e-14, y: -5.695444e-14, z: 0, w: 1}
-      scale: {x: 1.0000001, y: 0.9999999, z: 0.9999999}
+    - name: WomanRigRArmFingers1
+      position: {x: -0.016186971, y: 0, z: 0}
+      rotation: {x: -0.0000014123882, y: -0.000000036926696, z: 0.0000031404181, w: 1}
+      scale: {x: 1.0000005, y: 0.99999946, z: 0.9999999}
       transformModified: 1
-    - name: WomanRigRArmDigit11
-      position: {x: -0.0099791875, y: -0.00008502388, z: -0.021725774}
-      rotation: {x: 0.0042882524, y: -0.70670754, z: -0.01406221, w: 0.70735306}
-      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000002}
+    - name: WomanRigRArmThumb1
+      position: {x: -0.008062226, y: 0.00007572212, z: -0.019938985}
+      rotation: {x: -0.010426399, y: -0.7105964, z: 0.002171563, w: 0.7035192}
+      scale: {x: 0.99999976, y: 0.9999997, z: 1.0000005}
       transformModified: 1
     armTwist: 0.5
     foreArmTwist: 0.5
